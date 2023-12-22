@@ -1,7 +1,12 @@
-import Image from 'next/image'
+import About from './components/About'
+import LandingPage from './components/LandingPage'
 
 export default function Home() {
+  
   return (
-    <div>Hello</div>
+    <div>
+      <About />
+      <LandingPage />
+    </div>
   )
 }
